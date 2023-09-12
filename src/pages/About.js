@@ -3,16 +3,15 @@ import { IdentificationIcon } from "@heroicons/react/solid";
 
 const PythonLogo = require("../assets/logos/PythonLogo.png");
 const ReactLogo = require("../assets/logos/ReactLogo.png");
-const TypescriptLogo = require("../assets/logos/TypescriptLogo.png");
 const JsLogo = require("../assets/logos/JsLogo.png");
-const NextLogo = require("../assets/logos/NextLogo.png");
-const TailwindLogo = require("../assets/logos/TailwindLogo.png");
 const SqlLogo = require("../assets/logos/SqlLogo.png");
 const ReduxLogo = require("../assets/logos/ReduxLogo.png");
 const Django = require("../assets/logos/Django.png");
 const MongoDBLogo = require("../assets/logos/MongoDBLogo.png");
 const FastAPILogo = require("../assets/logos/FastAPI.png");
 const DockerLogo = require("../assets/logos/DockerLogo.png");
+const CSSLogo = require("../assets/logos/CSS.png");
+const HtmlLogo = require("../assets/logos/HTML.png");
 
 const About = () => {
   return (
@@ -31,7 +30,7 @@ const About = () => {
         <div className="text-[#a2aabc] text-lg mt-5">
           <code>
   Welcome! As a dedicated and curious software engineer, I am passionate about finding innovative solutions to complex problems. Currently, I am pursuing a Bachelor of Science in Software Development at Western Governors University (WGU) to further enhance my knowledge and skills in this field. <br></br>
-  
+
   <br></br>Prior to my transition into software engineering, I worked as a Virtual Diagnostics Technician at Tesla and as a Field Service Technician at Melitta Professional Coffee Solutions, where I gained valuable experience in troubleshooting, electrical repairs, and equipment maintenance. Before that, I served as a Support Equipment Technician in the United States Marine Corps, where I honed my skills in aviation electronics, equipment repair, and planned preventative maintenance.<br></br>
 
   <br></br>Throughout my career, I have developed a strong sense of discipline, attention to detail, and a commitment to delivering excellent results. I thrive in collaborative environments and have a track record of working effectively with colleagues and clients to deliver exceptional projects.<br></br>
@@ -80,16 +79,16 @@ const About = () => {
             </div>
             <div className="flex flex-row  mb-3">
               <img
-                src={PythonLogo}
-                alt="Python Logo"
+                src={CSSLogo}
+                alt="CSS Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>CSS</code>
             </div>
             <div className="flex flex-row  mb-3">
               <img
-                src={PythonLogo}
-                alt="Python Logo"
+                src={HtmlLogo}
+                alt="HTML Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>HTML5</code>
@@ -97,15 +96,15 @@ const About = () => {
             <div className="flex flex-row  mb-3">
               <img
                 src={Django}
-                alt="Python Logo"
+                alt="Django Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>Django</code>
             </div>
             <div className="flex flex-row  mb-3">
               <img
-                src={Django}
-                alt="Python Logo"
+                src={FastAPILogo}
+                alt="FastAPI Logo"
                 className="h-5 w-5 ml-3 mr-4 text-yellow_vs"
               />
               <code>FastAPI</code>

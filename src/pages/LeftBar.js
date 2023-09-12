@@ -3,7 +3,7 @@ import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 
 const GitLogo = require("../assets/logos/GitLogo.png");
 const LinkedinLogo = require("../assets/logos/LinkedinLogo.png");
-const KaggleLogo = require("../assets/logos/KaggleLogo.png");
+const GitlabLogo = require("../assets/logos/Gitlab.png");
 const MailLogo = require("../assets/logos/MailLogo.png");
 const PythonLogo = require("../assets/logos/PythonLogo.png");
 const JsLogo = require("../assets/logos/JsLogo.png");
@@ -82,28 +82,28 @@ const LeftBar = () => {
         ) : null}
         <div className="absolute inset-x-0 bottom-10 ">
           <div className="flex px-6 space-x-7">
-            <a href="/">
+            <a href="https://github.com/Andrew-Monk">
               <img
                 src={GitLogo}
                 alt="Git Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="https://gitlab.com/Andrew.Monk">
               <img
-                src={KaggleLogo}
+                src={GitlabLogo}
                 alt="Kaggle Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/andrew-monk-/">
               <img
                 src={LinkedinLogo}
                 alt="Linkedin Logo"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=andrewmonk1991@gmail.com">
               <img
                 src={MailLogo}
                 alt="Mail Logo"

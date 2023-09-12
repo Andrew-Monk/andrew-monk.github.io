@@ -22,14 +22,14 @@ const Resume = () => {
             <code className="text-yellow_vs">Education</code>
           </div>
           <div className="w-3/4">
-            <code className="text-blue_vs">Lorem Ipsum</code>
+            <code className="text-blue_vs">Western Governers Univerity</code>
             <br />
             <code className="italic text-sm text-lightblue_vs">
-              Masters in Information technology
+              BS in Software Engineering
             </code>
             <br />
             <code className="text-xs text-brown_vs">
-              • Sept 2014 - July 2017
+              • July 2024 - Current
             </code>
           </div>
         </div>

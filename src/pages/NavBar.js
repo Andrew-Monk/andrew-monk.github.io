@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import tw from "tailwind-styled-components";
 import { XIcon } from "@heroicons/react/solid";
 
-const JSIcon = require("../assets/icons/JSIcon.png");
+const PythonIcon = require("../assets/logos/PythonLogo.png");
 
 const Container = tw.div`
-  h-full 
-  flex 
-  items-center 
+  h-full
+  flex
+  items-center
   justify-center
-  px-4 
-  text-white 
+  px-4
+  text-white
   hover:bg-[#1e1e1e]
   hover:text-yellow_vs
   cursor-pointer
@@ -20,12 +20,12 @@ const Container = tw.div`
 `;
 
 const ActiveContainer = tw.div`
-  h-full 
-  flex 
-  items-center 
+  h-full
+  flex
+  items-center
   justify-center
-  px-4 
-  text-white 
+  px-4
+  text-white
   bg-[#1e1e1e]
   hover:text-yellow_vs
   cursor-pointer
@@ -46,11 +46,11 @@ const NavBar = ({ showPage, setShowPage }) => {
           }}
         >
           <img
-            src={JSIcon}
+            src={PythonIcon}
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          Home.js
+          Home.py
         </ActiveContainer>
       ) : (
         <Container
@@ -59,11 +59,11 @@ const NavBar = ({ showPage, setShowPage }) => {
           }}
         >
           <img
-            src={JSIcon}
+            src={PythonIcon}
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          Home.js
+          Home.py
         </Container>
       )}
       {hidePage.includes("about") ? null : showPage === "about" ? (
@@ -73,11 +73,11 @@ const NavBar = ({ showPage, setShowPage }) => {
           }}
         >
           <img
-            src={JSIcon}
+            src={PythonIcon}
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          About.js
+          About.py
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -94,11 +94,11 @@ const NavBar = ({ showPage, setShowPage }) => {
           }}
         >
           <img
-            src={JSIcon}
+            src={PythonIcon}
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          About.js
+          About.py
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -116,11 +116,11 @@ const NavBar = ({ showPage, setShowPage }) => {
           }}
         >
           <img
-            src={JSIcon}
+            src={PythonIcon}
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          Resume.js
+          Resume.py
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -137,11 +137,11 @@ const NavBar = ({ showPage, setShowPage }) => {
           }}
         >
           <img
-            src={JSIcon}
+            src={PythonIcon}
             alt="JS Icon"
             className="w-7 mr-1  text-yellow_vs"
           />
-          Resume.js
+          Resume.py
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -159,8 +159,8 @@ const NavBar = ({ showPage, setShowPage }) => {
             setShowPage("contact");
           }}
         >
-          <img src={JSIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
-          Contact.js
+          <img src={PythonIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
+          Contact.py
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -176,8 +176,8 @@ const NavBar = ({ showPage, setShowPage }) => {
             setShowPage("contact");
           }}
         >
-          <img src={JSIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
-          Contact.js
+          <img src={PythonIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
+          Contact.py
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {

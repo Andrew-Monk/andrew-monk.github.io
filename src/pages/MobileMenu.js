@@ -7,8 +7,9 @@ import {
 } from "@heroicons/react/solid";
 import { Disclosure, Transition } from "@headlessui/react";
 
-const JSIcon = require("../assets/icons/JSIcon.png");
-const TSIcon = require("../assets/icons/TSIcon.png");
+const JSIcon = require("../assets/logos/JsLogo.png");
+const PythonIcon = require("../assets/logos/PythonLogo.png");
+
 
 const MobileMenu = () => {
   const projects = [
@@ -16,7 +17,7 @@ const MobileMenu = () => {
       name: "First Project",
       href: "#",
       icon: <img
-      src={JSIcon}
+      src={PythonIcon}
       alt="JS Icon"
       className="w-7 mr-1  ml-5 text-yellow_vs"
     />,
@@ -26,7 +27,7 @@ const MobileMenu = () => {
       name: "Second Project",
       href: "#",
       icon:  <img
-      src={TSIcon}
+      src={JSIcon}
       alt="TS Icon"
       className="w-7 mr-1  ml-5 text-yellow_vs"
     />,
@@ -34,16 +35,6 @@ const MobileMenu = () => {
     },
     {
       name: "Third Project",
-      href: "#",
-      icon: <img
-      src={JSIcon}
-      alt="JS Icon"
-      className="w-7 mr-1  ml-5 text-yellow_vs"
-    />,
-      current: false,
-    },
-    {
-      name: "Fourth Project",
       href: "#",
       icon: <img
       src={JSIcon}
