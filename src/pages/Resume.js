@@ -18,20 +18,29 @@ const Resume = () => {
       </div>
       <div className="text-[#a2aabc] text-lg mt-5">
         <div className="flex flex-row">
-          <div className="w-1/4">
-            <code className="text-yellow_vs">Education</code>
-          </div>
-          <div className="w-3/4">
-            <code className="text-blue_vs">Western Governers Univerity</code>
-            <br />
-            <code className="italic text-sm text-lightblue_vs">
+        <div className="w-1/4">
+        <code className="text-yellow_vs">Education</code>
+        </div>
+        <div className="w-3/4">
+          <div className="flex flex-col">
+            <code className="text-blue_vs">Western Governers University</code>
+            <code className="italic text-sm text-lightblue_vs mt-1">
               BS in Software Engineering
             </code>
-            <br />
-            <code className="text-xs text-brown_vs">
-              • July 2024 - Current
+            <code className="text-xs text-brown_vs mt-1">
+              • July 2023 - Current
             </code>
           </div>
+          <div className="flex flex-col mt-2">
+            <code className="text-blue_vs">Hack Reactor</code>
+            <code className="italic text-sm text-lightblue_vs mt-1">
+              19-week web development certificate
+            </code>
+            <code className="text-xs text-brown_vs mt-1">
+              • February 2023 - July 2023
+            </code>
+          </div>
+        </div>
         </div>
         <div className="flex flex-row pt-10">
           <div className="w-1/4">

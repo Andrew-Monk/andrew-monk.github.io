@@ -14,8 +14,8 @@ const PythonIcon = require("../assets/logos/PythonLogo.png");
 const MobileMenu = () => {
   const projects = [
     {
-      name: "First Project",
-      href: "#",
+      name: "Task Manager",
+      href: "https://github.com/Andrew-Monk/task-manager",
       icon: <img
       src={PythonIcon}
       alt="JS Icon"
@@ -24,8 +24,8 @@ const MobileMenu = () => {
       current: true,
     },
     {
-      name: "Second Project",
-      href: "#",
+      name: "CarConnect",
+      href: "https://github.com/Andrew-Monk/car-connect",
       icon:  <img
       src={JSIcon}
       alt="TS Icon"
@@ -34,8 +34,8 @@ const MobileMenu = () => {
       current: false,
     },
     {
-      name: "Third Project",
-      href: "#",
+      name: "PassportPals",
+      href: "https://passportpals.gitlab.io/module3-project-gamma/events/list",
       icon: <img
       src={JSIcon}
       alt="JS Icon"
