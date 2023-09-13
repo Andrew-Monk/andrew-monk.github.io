@@ -16,6 +16,7 @@ const LeftBar = () => {
 
   const WebList = () => (
     <div>
+      <div className="mb-2">
       <a href="https://github.com/Andrew-Monk/task-manager">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
@@ -26,6 +27,8 @@ const LeftBar = () => {
           <p>Task Manager</p>
         </div>
       </a>
+      </div>
+      <div className="mb-2">
       <a href="https://github.com/Andrew-Monk/car-connect">
         <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
           <img
@@ -36,6 +39,7 @@ const LeftBar = () => {
           <p>CarConnect</p>
         </div>
       </a>
+      </div>
       <a href="https://passportpals.gitlab.io/module3-project-gamma/events/list">
         <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
           <img
