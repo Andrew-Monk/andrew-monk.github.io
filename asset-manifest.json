@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.56067539.css",
+    "main.js": "/my-app/static/js/main.1f6f3c60.js",
+    "static/media/SqlLogo.png": "/my-app/static/media/SqlLogo.85fb38d6773862e917f4.png",
+    "static/media/MongoDBLogo.png": "/my-app/static/media/MongoDBLogo.1df44ece8cf851cecf69.png",
+    "static/media/Gitlab.png": "/my-app/static/media/Gitlab.427d698da04b14611d74.png",
+    "static/media/ReactLogo.png": "/my-app/static/media/ReactLogo.37940586dd863909ffca.png",
+    "static/media/Django.png": "/my-app/static/media/Django.f28ebb980e70fb1c1721.png",
+    "static/media/CSS.png": "/my-app/static/media/CSS.780167ac2f40cd09ebca.png",
+    "static/media/PythonLogo.png": "/my-app/static/media/PythonLogo.2e65c2b73eddaaf97e06.png",
+    "static/media/HTML.png": "/my-app/static/media/HTML.0857e0e9f16770bf2964.png",
+    "static/media/DockerLogo.png": "/my-app/static/media/DockerLogo.6d1afdb456643d603142.png",
+    "static/media/FastAPI.png": "/my-app/static/media/FastAPI.a88a83663259bd144509.png",
+    "static/media/ReduxLogo.png": "/my-app/static/media/ReduxLogo.296b9306ae3e4de348c6.png",
+    "static/media/JsLogo.png": "/my-app/static/media/JsLogo.db393457bf6303d846d6.png",
+    "index.html": "/my-app/index.html",
+    "main.56067539.css.map": "/my-app/static/css/main.56067539.css.map",
+    "main.1f6f3c60.js.map": "/my-app/static/js/main.1f6f3c60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56067539.css",
+    "static/js/main.1f6f3c60.js"
+  ]
+}
